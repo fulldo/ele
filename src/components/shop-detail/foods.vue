@@ -402,7 +402,7 @@ export default {
 
         // 更改购物车记录
         if (!foodInCart) {
-          this.$store.commit('addFood', {
+          this.$store.commit('ADD_FOOD', {
             shopId: this.restaurantId,
             food: {
               id: food.item_id,
@@ -514,7 +514,7 @@ export default {
      * 清空购物车
      */
     clearCart () {
-      this.$store.commit('clearAShop', { shopId: this.restaurantId });
+      this.$store.commit('CLEAR_A_SHOP', { shopId: this.restaurantId });
 
       let menus = this.menus;
       for (let i = 0; i < menus.length; i++) {
@@ -545,7 +545,6 @@ export default {
       let style = '';
       if (type === 'flyball') {
         style = 'top: ' + addButton.top + 'px; left: ' + addButton.left + 'px; transform: translate3d(-' + (addButton.left - 80) + 'px, 0px, 0px);';
-        console.log(addButton);
       } else if (type === 'inner') {
         style = 'width: 36px; height: 36px; transform: translate3d(0px, ' + (winHeight - addButton.top - cartHeight) + 'px, 0px);';
       }
@@ -588,7 +587,7 @@ export default {
   },
   created () {
     // 初始化购物车
-    this.$store.commit('initAShop', { shopId: this.restaurantId });
+    this.$store.commit('INIT_A_SHOP', { shopId: this.restaurantId });
     this.cart = this.$store.getters.shopCart({ shopId: this.restaurantId });
     // 获取商店菜单已经菜品
     this.getMenuData();
@@ -603,9 +602,6 @@ export default {
     ])
   }
 };
-
-
-
 </script>
 <style>
 s .menucategory-categoryItem_3e27M.menucategory-active_JnDmc {
@@ -1439,7 +1435,4 @@ dd[data-v-f433384a] {
   transition: transform 0.5s cubic-bezier(0.3, -0.2, 1, 0),
     -webkit-transform 0.5s cubic-bezier(0.3, -0.2, 1, 0);
 }
-
-
-
 </style>

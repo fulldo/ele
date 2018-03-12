@@ -126,7 +126,7 @@ export default {
     }
   },
   created () {
-    this.$store.commit('initAShop', { shopId: this.restaurant.id });
+    this.$store.commit('INIT_A_SHOP', { shopId: this.restaurant.id });
     this.cart = this.$store.getters.shopCart({ shopId: this.restaurant.id });
   }
 };

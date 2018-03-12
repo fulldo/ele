@@ -38,10 +38,10 @@ const actions = {
   changeFoodCount (context, { shopId, foodId, foodCount }) {
     let food = state.cartMap[shopId].find(item => item.id === foodId);
     if (food) {
-      context.commit('changeFoodCount', { shopId, foodId, foodCount });
+      context.commit('CHANGE_FOOD_COUNT', { shopId, foodId, foodCount });
       // 如果数量为0
       if (!food.count) {
-        context.commit('deleteFood', { shopId, foodId });
+        context.commit('DELETE_FOOD', { shopId, foodId });
       }
     }
   }
@@ -49,7 +49,7 @@ const actions = {
 
 // mutations
 const mutations = {
-  changeFoodCount (state, { shopId, foodId, foodCount }) {
+  CHANGE_FOOD_COUNT (state, { shopId, foodId, foodCount }) {
     let food = state.cartMap[shopId].find(item => item.id === foodId);
     if (food) {
       food.count = foodCount;
@@ -60,7 +60,7 @@ const mutations = {
    * @param {*} state
    * @param {*} payload
    */
-  deleteFood (state, { shopId, foodId }) {
+  DELETE_FOOD (state, { shopId, foodId }) {
     let cartMap = state.cartMap;
     const foods = cartMap[shopId];
     if (!foods) {
@@ -77,21 +77,21 @@ const mutations = {
    * @param {*} state
    * @param {*} payload  {shopId, food}
    */
-  addFood (state, { shopId, food }) {
+  ADD_FOOD (state, { shopId, food }) {
     let cartMap = state.cartMap;
     let shop = cartMap[shopId];
     shop.push(food);
   },
-  initAShop (state, { shopId }) {
+  INIT_A_SHOP (state, { shopId }) {
     state.cartMap[shopId] || (state.cartMap[shopId] = []);
   },
-  clearAShop (state, { shopId }) {
+  CLEAR_A_SHOP (state, { shopId }) {
     state.cartMap[shopId].splice(0);
   },
-  setAddButton (state, { element }) {
+  SET_ADD_BUTTON (state, { element }) {
     state.addButton = element;
   },
-  setDistributioFee (state, { fee }) {
+  SET_DISTRIBUTIO_FEE (state, { fee }) {
     state.distributioFee = fee;
   }
 };

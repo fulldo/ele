@@ -30,7 +30,7 @@ export default {
   methods: {
     foodAdd (event) {
       // 添加当前点击的添加按钮的dom到state，用户确定飞球的起始位置和落地位置等一些信息
-      this.$store.commit('setAddButton', { element: event.target });
+      this.$store.commit('SET_ADD_BUTTON', { element: event.target });
       this.$emit('foodAdd', this.food.item_id);
     },
     foodDel () {

@@ -41,7 +41,7 @@ export default {
       }).then(result => {
         this.restaurant = result;
         // 设置运费
-        this.$store.commit('setDistributioFee', { fee: this.restaurant.piecewise_agent_fee.rules[0].fee });
+        this.$store.commit('SET_DISTRIBUTIO_FEE', { fee: this.restaurant.piecewise_agent_fee.rules[0].fee });
         this.loading = false;
       });
     },
