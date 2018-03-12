@@ -1,17 +1,20 @@
 <template>
   <div>
     <div class="svg">
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+           style="position:absolute;width:0;height:0">
         <defs>
           <symbol viewBox="0 0 60 60" id="close.22a2874">
             <g fill="none" fill-rule="evenodd" opacity=".8" transform="translate(3 3)">
-              <path fill="#FFF" d="M27 25.384l9.697-9.698a1.143 1.143 0 1 1 1.617 1.617L28.616 27l9.698 9.697a1.143 1.143 0 1 1-1.617 1.617L27 28.616l-9.697 9.698a1.143 1.143 0 1 1-1.617-1.617L25.384 27l-9.698-9.697a1.143 1.143 0 1 1 1.617-1.617L27 25.384z"></path>
+              <path fill="#FFF"
+                    d="M27 25.384l9.697-9.698a1.143 1.143 0 1 1 1.617 1.617L28.616 27l9.698 9.697a1.143 1.143 0 1 1-1.617 1.617L27 28.616l-9.697 9.698a1.143 1.143 0 1 1-1.617-1.617L25.384 27l-9.698-9.697a1.143 1.143 0 1 1 1.617-1.617L27 25.384z"></path>
               <circle cx="27" cy="27" r="26.5" stroke="#FFF"></circle>
             </g>
           </symbol>
         </defs>
       </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+           style="position:absolute;width:0;height:0">
         <defs>
           <symbol viewBox="0 0 60 10" id="star-actived.d4c54d1">
             <defs>
@@ -20,27 +23,33 @@
                 <stop offset="100%" stop-color="#FFB000"></stop>
               </linearGradient>
             </defs>
-            <path fill="url(#star-actived.d4c54d1_a)" fill-rule="evenodd" d="M54.017 8.072l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L53.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm-48 0L3.465 9.633c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L5.63.589c.213-.515.557-.523.774 0L7.55 3.352l2.982.237c.556.044.67.368.24.736L8.497 6.269l.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L17.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L29.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L41.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56z"></path>
+            <path fill="url(#star-actived.d4c54d1_a)" fill-rule="evenodd"
+                  d="M54.017 8.072l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L53.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm-48 0L3.465 9.633c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L5.63.589c.213-.515.557-.523.774 0L7.55 3.352l2.982.237c.556.044.67.368.24.736L8.497 6.269l.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L17.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L29.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L41.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56z"></path>
           </symbol>
           <symbol viewBox="0 0 60 10" id="star-gray.cc081b9">
-            <path fill="#EEE" fill-rule="evenodd" d="M54.017 8.072l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L53.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm-48 0L3.465 9.633c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L5.63.589c.213-.515.557-.523.774 0L7.55 3.352l2.982.237c.556.044.67.368.24.736L8.497 6.269l.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L17.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L29.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L41.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56z"></path>
+            <path fill="#EEE" fill-rule="evenodd"
+                  d="M54.017 8.072l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L53.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm-48 0L3.465 9.633c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L5.63.589c.213-.515.557-.523.774 0L7.55 3.352l2.982.237c.556.044.67.368.24.736L8.497 6.269l.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L17.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L29.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L41.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56z"></path>
           </symbol>
         </defs>
       </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+           style="position:absolute;width:0;height:0">
         <defs>
           <symbol viewBox="0 0 60 60" id="close.22a2874">
             <g fill="none" fill-rule="evenodd" opacity=".8" transform="translate(3 3)">
-              <path fill="#FFF" d="M27 25.384l9.697-9.698a1.143 1.143 0 1 1 1.617 1.617L28.616 27l9.698 9.697a1.143 1.143 0 1 1-1.617 1.617L27 28.616l-9.697 9.698a1.143 1.143 0 1 1-1.617-1.617L25.384 27l-9.698-9.697a1.143 1.143 0 1 1 1.617-1.617L27 25.384z"></path>
+              <path fill="#FFF"
+                    d="M27 25.384l9.697-9.698a1.143 1.143 0 1 1 1.617 1.617L28.616 27l9.698 9.697a1.143 1.143 0 1 1-1.617 1.617L27 28.616l-9.697 9.698a1.143 1.143 0 1 1-1.617-1.617L25.384 27l-9.698-9.697a1.143 1.143 0 1 1 1.617-1.617L27 25.384z"></path>
               <circle cx="27" cy="27" r="26.5" stroke="#FFF"></circle>
             </g>
           </symbol>
         </defs>
       </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+           style="position:absolute;width:0;height:0">
         <defs>
           <symbol viewBox="0 0 32 32" id="success">
-            <path fill="#FEF0CA" fill-rule="nonzero" d="M16 32C7.17 32 0 24.83 0 16S7.17 0 16 0s16 7.17 16 16-7.17 16-16 16zm-2.074-9.719c.533 0 1.067-.177 1.481-.592l7.941-7.94c.83-.83.83-2.134 0-2.964a2.075 2.075 0 0 0-2.963 0l-6.518 6.519-2.311-2.311c-.83-.83-2.134-.83-2.904 0-.83.83-.83 2.133 0 2.903l3.792 3.793c.415.415.949.592 1.482.592z"></path>
+            <path fill="#FEF0CA" fill-rule="nonzero"
+                  d="M16 32C7.17 32 0 24.83 0 16S7.17 0 16 0s16 7.17 16 16-7.17 16-16 16zm-2.074-9.719c.533 0 1.067-.177 1.481-.592l7.941-7.94c.83-.83.83-2.134 0-2.964a2.075 2.075 0 0 0-2.963 0l-6.518 6.519-2.311-2.311c-.83-.83-2.134-.83-2.904 0-.83.83-.83 2.133 0 2.903l3.792 3.793c.415.415.949.592 1.482.592z"></path>
           </symbol>
           <symbol xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 64" id="arc-cover">
             <defs>
@@ -53,15 +62,18 @@
                 <stop offset="0%" stop-color="#DC1E36"></stop>
                 <stop offset="100%" stop-color="#FD4E4C"></stop>
               </linearGradient>
-              <path id="arc-cover_c" d="M0 13c86.885 32.667 193.219 49 319 49s232.781-16.333 321-49v360c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V13z"></path>
-              <filter id="arc-cover_b" width="107.3%" height="112.2%" x="-3.7%" y="-6.6%" filterUnits="objectBoundingBox">
+              <path id="arc-cover_c"
+                    d="M0 13c86.885 32.667 193.219 49 319 49s232.781-16.333 321-49v360c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V13z"></path>
+              <filter id="arc-cover_b" width="107.3%" height="112.2%" x="-3.7%" y="-6.6%"
+                      filterUnits="objectBoundingBox">
                 <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
                 <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"></feGaussianBlur>
                 <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"></feColorMatrix>
               </filter>
             </defs>
             <g fill="none" fill-rule="evenodd">
-              <path fill="url(#arc-cover_a)" d="M0 10c86.885 30.667 193.219 46 319 46s232.781-15.333 321-46v313c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V10z"></path>
+              <path fill="url(#arc-cover_a)"
+                    d="M0 10c86.885 30.667 193.219 46 319 46s232.781-15.333 321-46v313c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V10z"></path>
               <use fill="#000" filter="url(#arc-cover_b)" xlink:href="#arc-cover_c"></use>
               <use fill="url(#arc-cover_d)" xlink:href="#arc-cover_c"></use>
             </g>
@@ -70,16 +82,20 @@
             <path d="M0 931.973l51.2 54.613 494.933-494.933L51.2.133 0 51.333l440.32 440.32L0 931.973z"></path>
           </symbol>
           <symbol viewBox="0 0 20 32" id="arrow-left">
-            <path fill="#fff" d="M16.552 5.633l-2.044-2.044L2.243 15.854l12.265 12.557 2.044-2.044L6.331 15.854z"></path>
+            <path fill="#fff"
+                  d="M16.552 5.633l-2.044-2.044L2.243 15.854l12.265 12.557 2.044-2.044L6.331 15.854z"></path>
           </symbol>
           <symbol viewBox="0 0 1024 1024" id="res-x">
-            <path fill-rule="evenodd" d="M480.518 512L8.377 984.141c-8.853 8.853-8.777 22.871-.083 31.565 8.754 8.754 22.825 8.656 31.565-.083L512 543.482l472.141 472.141c8.853 8.853 22.871 8.777 31.565.083 8.754-8.754 8.656-22.825-.083-31.565L543.482 512l472.141-472.141c8.853-8.853 8.777-22.871.083-31.565-8.754-8.754-22.825-8.656-31.565.083L512 480.518 39.859 8.377C31.006-.476 16.988-.4 8.294 8.294c-8.754 8.754-8.656 22.825.083 31.565L480.518 512z" class="path1 fill-color3"></path>
+            <path fill-rule="evenodd"
+                  d="M480.518 512L8.377 984.141c-8.853 8.853-8.777 22.871-.083 31.565 8.754 8.754 22.825 8.656 31.565-.083L512 543.482l472.141 472.141c8.853 8.853 22.871 8.777 31.565.083 8.754-8.754 8.656-22.825-.083-31.565L543.482 512l472.141-472.141c8.853-8.853 8.777-22.871.083-31.565-8.754-8.754-22.825-8.656-31.565.083L512 480.518 39.859 8.377C31.006-.476 16.988-.4 8.294 8.294c-8.754 8.754-8.656 22.825.083 31.565L480.518 512z"
+                  class="path1 fill-color3"></path>
           </symbol>
           <symbol viewBox="0 0 8 12" id="svip-down">
             <path fill="#F2DD7D" fill-rule="nonzero" d="M2.07 0v6.018H0l4 5.459 4-5.459H5.93V0H2.07z"></path>
           </symbol>
           <symbol viewBox="0 0 10 8" id="svip-crown">
-            <path fill="#F2DD7D" fill-rule="evenodd" d="M7.11 2.688L5.143.072a.177.177 0 0 0-.286 0L2.89 2.69a.709.709 0 0 1-.991.152L.286 1.662a.177.177 0 0 0-.253.044.193.193 0 0 0-.03.14L.97 7.505a.37.37 0 0 0 .287.302c1.261.259 6.238.259 7.48 0a.37.37 0 0 0 .285-.301l.975-5.67a.187.187 0 0 0-.147-.218.177.177 0 0 0-.137.032L8.104 2.838a.709.709 0 0 1-.994-.15z"></path>
+            <path fill="#F2DD7D" fill-rule="evenodd"
+                  d="M7.11 2.688L5.143.072a.177.177 0 0 0-.286 0L2.89 2.69a.709.709 0 0 1-.991.152L.286 1.662a.177.177 0 0 0-.253.044.193.193 0 0 0-.03.14L.97 7.505a.37.37 0 0 0 .287.302c1.261.259 6.238.259 7.48 0a.37.37 0 0 0 .285-.301l.975-5.67a.187.187 0 0 0-.147-.218.177.177 0 0 0-.137.032L8.104 2.838a.709.709 0 0 1-.994-.15z"></path>
           </symbol>
           <symbol viewBox="0 0 13 10" id="svip-icon">
             <defs>
@@ -88,11 +104,13 @@
                 <stop offset="100%" stop-color="#FFDB72"></stop>
               </linearGradient>
             </defs>
-            <path fill="url(#svip-icon_a)" fill-rule="evenodd" d="M9.354 3.36L6.894.09a.222.222 0 0 0-.357 0l-2.46 3.273a.886.886 0 0 1-1.24.19L.823 2.076a.222.222 0 0 0-.316.055.24.24 0 0 0-.038.177l1.21 7.07c.032.19.174.34.358.378 1.576.324 7.797.324 9.35.001a.462.462 0 0 0 .356-.377l1.219-7.088a.234.234 0 0 0-.183-.272.22.22 0 0 0-.172.04l-2.012 1.486a.886.886 0 0 1-1.241-.187z"></path>
+            <path fill="url(#svip-icon_a)" fill-rule="evenodd"
+                  d="M9.354 3.36L6.894.09a.222.222 0 0 0-.357 0l-2.46 3.273a.886.886 0 0 1-1.24.19L.823 2.076a.222.222 0 0 0-.316.055.24.24 0 0 0-.038.177l1.21 7.07c.032.19.174.34.358.378 1.576.324 7.797.324 9.35.001a.462.462 0 0 0 .356-.377l1.219-7.088a.234.234 0 0 0-.183-.272.22.22 0 0 0-.172.04l-2.012 1.486a.886.886 0 0 1-1.241-.187z"></path>
           </symbol>
           <symbol xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="gray-close">
             <defs>
-              <path id="gray-close_a" d="M13.132 12l6.47-6.47a.75.75 0 0 0-1.061-1.06l-6.47 6.47-6.47-6.47a.75.75 0 0 0-1.06 1.06L11.01 12l-.072.071.071.071-6.47 6.47a.75.75 0 0 0 1.061 1.06l6.47-6.47 6.47 6.47a.75.75 0 0 0 1.06-1.06l-6.47-6.47.072-.07-.071-.072z"></path>
+              <path id="gray-close_a"
+                    d="M13.132 12l6.47-6.47a.75.75 0 0 0-1.061-1.06l-6.47 6.47-6.47-6.47a.75.75 0 0 0-1.06 1.06L11.01 12l-.072.071.071.071-6.47 6.47a.75.75 0 0 0 1.061 1.06l6.47-6.47 6.47 6.47a.75.75 0 0 0 1.06-1.06l-6.47-6.47.072-.07-.071-.072z"></path>
             </defs>
             <g fill="none" fill-rule="evenodd">
               <use fill="#000" fill-opacity=".54" fill-rule="nonzero" xlink:href="#gray-close_a"></use>
@@ -100,35 +118,47 @@
             </g>
           </symbol>
           <symbol viewBox="0 0 32 32" id="success">
-            <path fill="#FEF0CA" fill-rule="nonzero" d="M16 32C7.17 32 0 24.83 0 16S7.17 0 16 0s16 7.17 16 16-7.17 16-16 16zm-2.074-9.719c.533 0 1.067-.177 1.481-.592l7.941-7.94c.83-.83.83-2.134 0-2.964a2.075 2.075 0 0 0-2.963 0l-6.518 6.519-2.311-2.311c-.83-.83-2.134-.83-2.904 0-.83.83-.83 2.133 0 2.903l3.792 3.793c.415.415.949.592 1.482.592z"></path>
+            <path fill="#FEF0CA" fill-rule="nonzero"
+                  d="M16 32C7.17 32 0 24.83 0 16S7.17 0 16 0s16 7.17 16 16-7.17 16-16 16zm-2.074-9.719c.533 0 1.067-.177 1.481-.592l7.941-7.94c.83-.83.83-2.134 0-2.964a2.075 2.075 0 0 0-2.963 0l-6.518 6.519-2.311-2.311c-.83-.83-2.134-.83-2.904 0-.83.83-.83 2.133 0 2.903l3.792 3.793c.415.415.949.592 1.482.592z"></path>
           </symbol>
         </defs>
       </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0;visibility:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+           style="position:absolute;width:0;height:0;visibility:hidden">
         <defs>
           <symbol viewBox="0 0 44 44" id="cart-add">
-            <path fill-rule="evenodd" d="M22 0C9.8 0 0 9.8 0 22s9.8 22 22 22 22-9.8 22-22S34.2 0 22 0zm0 42C11 42 2 33 2 22S11 2 22 2s20 9 20 20-9 20-20 20z" clip-rule="evenodd"></path>
-            <path fill-rule="evenodd" d="M32 20c1.1 0 2 .9 2 2s-.9 2-2 2H12c-1.1 0-2-.9-2-2s.9-2 2-2h20z" clip-rule="evenodd"></path>
+            <path fill-rule="evenodd"
+                  d="M22 0C9.8 0 0 9.8 0 22s9.8 22 22 22 22-9.8 22-22S34.2 0 22 0zm0 42C11 42 2 33 2 22S11 2 22 2s20 9 20 20-9 20-20 20z"
+                  clip-rule="evenodd"></path>
+            <path fill-rule="evenodd" d="M32 20c1.1 0 2 .9 2 2s-.9 2-2 2H12c-1.1 0-2-.9-2-2s.9-2 2-2h20z"
+                  clip-rule="evenodd"></path>
           </symbol>
           <symbol viewBox="0 0 44 44" id="cart-minus">
             <path fill="none" d="M0 0h44v44H0z"></path>
-            <path fill-rule="evenodd" d="M22 0C9.8 0 0 9.8 0 22s9.8 22 22 22 22-9.8 22-22S34.2 0 22 0zm10 24h-8v8c0 1.1-.9 2-2 2s-2-.9-2-2v-8h-8c-1.1 0-2-.9-2-2s.9-2 2-2h8v-8c0-1.1.9-2 2-2s2 .9 2 2v8h8c1.1 0 2 .9 2 2s-.9 2-2 2z" clip-rule="evenodd"></path>
+            <path fill-rule="evenodd"
+                  d="M22 0C9.8 0 0 9.8 0 22s9.8 22 22 22 22-9.8 22-22S34.2 0 22 0zm10 24h-8v8c0 1.1-.9 2-2 2s-2-.9-2-2v-8h-8c-1.1 0-2-.9-2-2s.9-2 2-2h8v-8c0-1.1.9-2 2-2s2 .9 2 2v8h8c1.1 0 2 .9 2 2s-.9 2-2 2z"
+                  clip-rule="evenodd"></path>
           </symbol>
           <symbol xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15" id="cart-remove">
             <defs>
               <path id="cart-remove_a" d="M0 15h13V0H0z"></path>
             </defs>
             <g fill="none" fill-rule="evenodd" transform="translate(1)">
-              <path fill="#979797" d="M7.05 15h-5.5c-.303 0-.55-.26-.55-.583V5.091c0-.322.246-.583.55-.583.304 0 .55.26.55.583v8.743h4.95c1.032 0 2-.426 2.728-1.2A4.18 4.18 0 0 0 10.9 9.735l-.03-7.15c0-.323.245-.585.548-.586h.003c.302 0 .548.26.55.58L12 9.732a5.374 5.374 0 0 1-1.442 3.724C9.622 14.451 8.376 15 7.05 15z"></path>
-              <path fill="#979797" d="M12.458 3H.542C.242 3 0 2.776 0 2.5S.243 2 .542 2h11.916c.3 0 .542.224.542.5s-.243.5-.542.5"></path>
+              <path fill="#979797"
+                    d="M7.05 15h-5.5c-.303 0-.55-.26-.55-.583V5.091c0-.322.246-.583.55-.583.304 0 .55.26.55.583v8.743h4.95c1.032 0 2-.426 2.728-1.2A4.18 4.18 0 0 0 10.9 9.735l-.03-7.15c0-.323.245-.585.548-.586h.003c.302 0 .548.26.55.58L12 9.732a5.374 5.374 0 0 1-1.442 3.724C9.622 14.451 8.376 15 7.05 15z"></path>
+              <path fill="#979797"
+                    d="M12.458 3H.542C.242 3 0 2.776 0 2.5S.243 2 .542 2h11.916c.3 0 .542.224.542.5s-.243.5-.542.5"></path>
               <mask id="cart-remove_b" fill="#fff">
                 <use xlink:href="#cart-remove_a"></use>
               </mask>
-              <path fill="#979797" d="M5 2h3V1H5v1zm3.464 1H4.536C4.24 3 4 2.776 4 2.5v-2c0-.276.24-.5.536-.5h3.928C8.76 0 9 .224 9 .5v2c0 .276-.24.5-.536.5z" mask="url(#cart-remove_b)"></path>
+              <path fill="#979797"
+                    d="M5 2h3V1H5v1zm3.464 1H4.536C4.24 3 4 2.776 4 2.5v-2c0-.276.24-.5.536-.5h3.928C8.76 0 9 .224 9 .5v2c0 .276-.24.5-.536.5z"
+                    mask="url(#cart-remove_b)"></path>
             </g>
           </symbol>
           <symbol viewBox="0 0 14 16" id="cart">
-            <path fill="#FFF" fill-rule="evenodd" d="M12.364 2.998H2.088L1.816.687a.455.455 0 0 0-.478-.431L.431.303A.454.454 0 0 0 0 .78l1.256 10.893c.006.293.011 1.325.933 1.325h9.546a.455.455 0 0 0 .455-.454v-.881a.454.454 0 0 0-.455-.455H3.05l-.11-.937h8.606c.998 0 1.889-.724 1.989-1.616l.455-4.04c.1-.893-.628-1.617-1.626-1.617zm-.45 4.245c-.075.669-.317 1.212-1.066 1.212H2.727L2.3 4.812h8.821c.749 0 1.065.543.99 1.212l-.197 1.219zM2.416 15.79a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm9.092 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+            <path fill="#FFF" fill-rule="evenodd"
+                  d="M12.364 2.998H2.088L1.816.687a.455.455 0 0 0-.478-.431L.431.303A.454.454 0 0 0 0 .78l1.256 10.893c.006.293.011 1.325.933 1.325h9.546a.455.455 0 0 0 .455-.454v-.881a.454.454 0 0 0-.455-.455H3.05l-.11-.937h8.606c.998 0 1.889-.724 1.989-1.616l.455-4.04c.1-.893-.628-1.617-1.626-1.617zm-.45 4.245c-.075.669-.317 1.212-1.066 1.212H2.727L2.3 4.812h8.821c.749 0 1.065.543.99 1.212l-.197 1.219zM2.416 15.79a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm9.092 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
           </symbol>
           <symbol viewBox="0 0 7 5" id="vip-icon">
             <defs>
@@ -137,7 +167,9 @@
                 <stop offset="100%" stop-color="#FFFAE4"></stop>
               </linearGradient>
             </defs>
-            <path fill="url(#vip-icon_a)" fill-rule="evenodd" d="M6.262 3.002L4.5 1 2.737 3.002 1.154 2.1a.1.1 0 0 0-.148.101l.544 3.714a.1.1 0 0 0 .1.086h5.7a.1.1 0 0 0 .099-.085L7.994 2.2a.1.1 0 0 0-.148-.101l-1.584.903z" transform="translate(-1 -1)"></path>
+            <path fill="url(#vip-icon_a)" fill-rule="evenodd"
+                  d="M6.262 3.002L4.5 1 2.737 3.002 1.154 2.1a.1.1 0 0 0-.148.101l.544 3.714a.1.1 0 0 0 .1.086h5.7a.1.1 0 0 0 .099-.085L7.994 2.2a.1.1 0 0 0-.148-.101l-1.584.903z"
+                  transform="translate(-1 -1)"></path>
           </symbol>
           <symbol viewBox="0 0 13 13" id="icon-warn">
             <g fill="none" fill-rule="evenodd">
@@ -149,16 +181,20 @@
       </svg>
     </div>
     <div class="menuview-menuview_2hUkG" style="height: 1252px;">
-      <div class="menuview-menuviewNodata_2iJo3" style="display: none;"><img src="//github.elemecdn.com/eleme/fe-static/1cb05f59/media/empty/no-food.png">
+      <div class="menuview-menuviewNodata_2iJo3" style="display: none;"><img
+        src="//github.elemecdn.com/eleme/fe-static/1cb05f59/media/empty/no-food.png">
         <p>没有商品</p>
         <p>该商家还未上传商品</p>
       </div>
       <div class="menuview-menuviewMain_17K3g">
         <main class="menuview-main_i6fQ3">
           <ul class="menucategory-category_29kyE menuview-menuNav_2_lFf">
-            <li @click="toggleMenu(menuKey)" :class="{'menucategory-active_JnDmc': menuKey === currMenu}" :key="menuKey" v-for="(item, menuKey) in menus" role="button" :aria-label="item.name" class="menucategory-hasicon_2MBNs menucategory-categoryItem_3e27M">
+            <li @click="toggleMenu(menuKey)" :class="{'menucategory-active_JnDmc': menuKey === currMenu}" :key="menuKey"
+                v-for="(item, menuKey) in menus" role="button" :aria-label="item.name"
+                class="menucategory-hasicon_2MBNs menucategory-categoryItem_3e27M">
               <span v-if="item.count > 0" class="menucategory-categoryQuantity_28BIn">{{item.count}}</span>
-              <img v-if="item.icon_url" class="menucategory-categoryIcon_375ij" src="https://fuss10.elemecdn.com/0/6a/05b267f338acfeb8bd682d16e836dpng.png?imageMogr/format/webp/thumbnail/26x/">
+              <img v-if="item.icon_url" class="menucategory-categoryIcon_375ij"
+                   src="https://fuss10.elemecdn.com/0/6a/05b267f338acfeb8bd682d16e836dpng.png?imageMogr/format/webp/thumbnail/26x/">
               <span class="menucategory-categoryName_qwsbd">{{item.name}}</span>
             </li>
           </ul>
@@ -167,19 +203,21 @@
               <!---->
               <dl :key="menuKey" v-for="(item, menuKey) in menus" data-v-f433384a="" role="menu">
                 <dt data-v-f433384a="" role="heading" :aria-label="item.description">
-                  <div data-v-f433384a="" class="category-title">
-                    <strong data-v-f433384a="" class="category-name">{{item.name}}</strong>
-                    <span data-v-f433384a="" class="category-desc">{{item.description}}</span>
-                  </div>
-                  <!---->
+                <div data-v-f433384a="" class="category-title">
+                  <strong data-v-f433384a="" class="category-name">{{item.name}}</strong>
+                  <span data-v-f433384a="" class="category-desc">{{item.description}}</span>
+                </div>
+                <!---->
                 </dt>
-                <dd :key="foodKey" v-for="(food, foodKey) in item.foods" data-v-f433384a="" aria-label="food.description" role="menuitem" class="">
+                <dd :key="foodKey" v-for="(food, foodKey) in item.foods" data-v-f433384a=""
+                    aria-label="food.description" role="menuitem" class="">
                   <div data-v-f433384a="" class="fooddetails-root_2HoY2">
                     <span class="fooddetails-logo_2Q0S7">
                       <!-- <span class="attrTag-attrTag_2f7Ms_0 mini-tag-tag_1I2lF_0 fooddetails-attrTag_2TNes">新品
                         <span class="attrTag-newGhost_3oqLj_0 mini-tag-ghost_2_w2f_0">新品</span>
                       </span>-->
-                      <img alt="轰炸鱿鱼麻辣香锅" title="轰炸鱿鱼麻辣香锅" :src="'https://fuss10.elemecdn.com/'+formatImgUrl(food.image_path)+'?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/'"></span>
+                      <img alt="轰炸鱿鱼麻辣香锅" title="轰炸鱿鱼麻辣香锅"
+                           :src="'https://fuss10.elemecdn.com/'+formatImgUrl(food.image_path)+'?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/'"></span>
                     <section class="fooddetails-info_1fBtn">
                       <p class="fooddetails-name_P4hpW">
                         <!---->
@@ -214,7 +252,7 @@
 
                       <div class="fooddetails-button_RwKqC">
                         <span>
-                          <CartControl @foodAdd="foodAdd" @foodDel="foodDel" :food="food" />
+                          <CartControl @foodAdd="foodAdd" @foodDel="foodDel" :food="food"/>
                         </span>
                       </div>
                     </section>
@@ -226,7 +264,7 @@
             <div data-v-f433384a="" class="specpanel-container_28FLy">
               <div class="specpanel-specpanel_3CRhf" style="display: none;">
                 <h1></h1>
-                <div class="specpanel-candidators_IUXBF"> </div>
+                <div class="specpanel-candidators_IUXBF"></div>
                 <div class="specpanel-selectedresult_3-qgQ">
                   <p class="specpanel-price_2fywH">
                     <small class="specpanel-yen_dt8UU">¥</small>
@@ -245,7 +283,7 @@
             <!---->
           </section>
         </main>
-        <ShopCart ref="shopcart" :cart="cart" :piecewiseAgentFee="piecewiseAgentFee" @clearCart="clearCart" />
+        <ShopCart ref="shopcart" :cart="cart" :piecewiseAgentFee="piecewiseAgentFee" @clearCart="clearCart"/>
       </div>
     </div>
   </div>
@@ -526,9 +564,9 @@ export default {
       flyball.style = this.getStyle('flyball');
       inner.style = this.getStyle('inner');
       // 1秒钟后删除飞球
-      // setTimeout(() => {
-      //   document.body.removeChild(flyball);
-      // }, 1000);
+      setTimeout(() => {
+        document.body.removeChild(flyball);
+      }, 1000);
     },
     /**
      * 设置购物车缩放的动画
@@ -565,6 +603,9 @@ export default {
     ])
   }
 };
+
+
+
 </script>
 <style>
 s .menucategory-categoryItem_3e27M.menucategory-active_JnDmc {
@@ -1398,4 +1439,7 @@ dd[data-v-f433384a] {
   transition: transform 0.5s cubic-bezier(0.3, -0.2, 1, 0),
     -webkit-transform 0.5s cubic-bezier(0.3, -0.2, 1, 0);
 }
+
+
+
 </style>
