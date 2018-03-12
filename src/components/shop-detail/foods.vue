@@ -506,7 +506,8 @@ export default {
       const winHeight = window.innerHeight;
       let style = '';
       if (type === 'flyball') {
-        style = 'top: ' + addButton.y + 'px; left: ' + addButton.x + 'px; transform: translate3d(-' + (addButton.left - 80) + 'px, 0px, 0px);';
+        style = 'top: ' + addButton.top + 'px; left: ' + addButton.left + 'px; transform: translate3d(-' + (addButton.left - 80) + 'px, 0px, 0px);';
+        console.log(addButton);
       } else if (type === 'inner') {
         style = 'width: 36px; height: 36px; transform: translate3d(0px, ' + (winHeight - addButton.top - cartHeight) + 'px, 0px);';
       }
@@ -525,9 +526,9 @@ export default {
       flyball.style = this.getStyle('flyball');
       inner.style = this.getStyle('inner');
       // 1秒钟后删除飞球
-      setTimeout(() => {
-        document.body.removeChild(flyball);
-      }, 1000);
+      // setTimeout(() => {
+      //   document.body.removeChild(flyball);
+      // }, 1000);
     },
     /**
      * 设置购物车缩放的动画
